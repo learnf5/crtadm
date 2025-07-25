@@ -4,8 +4,8 @@ BIG-IP Administration Certificate Prep Course Labs
 
 ## Lab Number, Name, Series and VMs
 
-Number | Name | Series | jump | bigip1 | bigip2 | server | backend
----|---|---
+Number | Name | Series | jump | bigip1 | bigip2 | backend
+---|---|---|---|---|---|---
 CRTADM-L1-INSTALL | BIG-IP Administration Install, Initial Configuration and Upgrade | crtadm-100 | 4 | 8 |  | 4
 CRTADM-L2-CONCEPT | BIG-IP Administration Data Plane Concepts | crtadm-200 | 4 | 8 |  | 4
 CRTADM-L3-CONFIG | BIG-IP Administration Data Plane Configuration | crtadm-300 | 4 | 8 |  | 4
