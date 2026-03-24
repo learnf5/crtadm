@@ -8,3 +8,6 @@ curl --silent https://raw.githubusercontent.com/learnf5/$COURSE_ID/main/$iApp --
 # sudo scp /home/student/Downloads/$iApp 192.168.1.31:/shared/tmp
 # sudo ssh 192.168.1.31 tmsh load /sys application template /shared/tmp/$iApp
 # sudo ssh 192.168.1.31 tmsh save /sys config
+
+# BIG-IP file cleanup
+sudo ssh 192.168.1.31 rm /shared/images/bigip-17.1.1.1-0.0.2iso.md5
