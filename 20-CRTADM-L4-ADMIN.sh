@@ -10,4 +10,8 @@ curl --silent https://raw.githubusercontent.com/learnf5/$COURSE_ID/main/$iApp --
 # sudo ssh 192.168.1.31 tmsh save /sys config
 
 # BIG-IP file cleanup
+curl --silent https://raw.githubusercontent.com/learnf5/$COURSE_ID/main/BIGIP-16.1.5.2-0.0.5.iso.md5 --output /tmp/BIGIP-16.1.5.2-0.0.5.iso.md5
+curl --silent https://raw.githubusercontent.com/learnf5/$COURSE_ID/main/BIGIP-17.1.2.1-0.0.2.iso.md5 --output /tmp/BIGIP-17.1.2.1-0.0.2.iso.md5
+curl --silent https://raw.githubusercontent.com/learnf5/$COURSE_ID/main/BIGIP-17.5.0-0.0.15.iso.md5 --output /tmp/BIGIP-17.5.0-0.0.15.iso.md5
+sudo scp /tmp/*.md5 192.168.1.31:/shared/images/
 sudo ssh 192.168.1.31 rm /shared/images/bigip-17.1.1.1-0.0.2iso.md5
